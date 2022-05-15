@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders pokemon api', () => {
   render(<App />);
-  const linkElement = screen.getByText(/pokemon api/i);
+  const linkElement = screen.getByText(/Contenido/i);
   expect(linkElement).toBeInTheDocument();
 });

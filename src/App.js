@@ -1,9 +1,13 @@
+import Header from "./components/Header/Header";
 
 
 function App() {
   return (
-    <div>
-      <h1>Pokemon api</h1>
+    <div className="app">
+      <Header />
+      <main>
+        <p>Contenido</p>
+      </main>
     </div>
   );
 }
