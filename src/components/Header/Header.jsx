@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
-    return (
-        <header>
-            Pokémon api
-        </header>
-    )
-}
+  return <header>Pokémon api</header>;
+};
 
-export default Header
+export default Header;
